@@ -5,9 +5,10 @@
 }
 
 body {
-  background-color:#9dc378;
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-color:#9dc378; */
+  background-image: url("../images/png/repeat.png");
+  background-size:auto;
+  background-repeat:repeat;
   color: white;
   font-family: "Urbanist", sans-serif;
   display: flex;
@@ -26,7 +27,7 @@ body {
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #9ec479;
 }
 
 .navbar .domain a {
