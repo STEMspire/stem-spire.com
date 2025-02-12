@@ -39,3 +39,10 @@
 .team-card p {
     color: #ccc;
 }
+.team-card a {
+    color: #9ec479;
+    text-decoration: none;
+}
+.team-card a:hover {
+    text-decoration:underline;
+}
