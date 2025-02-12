@@ -1,6 +1,65 @@
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 80%;
+  max-width: 60%;
+  margin-top: 20rem;
+}
+
+.card {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card h2,
+.card h1 {
+  color: #9ec479;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: #ccc;
+}
+
+.card a {
+  color: #9ec479;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card ul {
+  list-style-type: none;
+}
+
+.card ul li {
+  margin-bottom: 0.5rem;
+}
+
+.hero {
   text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.cta .btn {
+  background-color: #9ec479;
+  padding: 0.8rem 2rem;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta .btn:hover {
+  background-color: #7ea351;
 }
