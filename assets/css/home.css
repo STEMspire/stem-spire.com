@@ -14,16 +14,16 @@
 
 .card h2,
 .card h1 {
-  color: #9ec479;
+  color: #98e31f;
   margin-bottom: 1rem;
 }
 
 .card p {
-  color: #ccc;
+  color: #44da22;
 }
 
 .card a {
-  color: #9ec479;
+  color: #00ffff;
   text-decoration: none;
   font-weight: bold;
 }
@@ -50,7 +50,7 @@
 }
 
 .cta .btn {
-  background-color: #9ec479;
+  background-color: #010112;
   padding: 0.8rem 2rem;
   text-align: center;
   border-radius: 5px;
@@ -61,5 +61,5 @@
 }
 
 .cta .btn:hover {
-  background-color: #7ea351;
+  background-color: #00ffff;
 }
