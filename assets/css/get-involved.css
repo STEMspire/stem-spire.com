@@ -5,7 +5,7 @@
 }
 
 .card {
-  background-color: #222;
+  background-color: #000000;
   border-radius: 10px;
   padding: 2rem;
   margin-bottom: 2rem;
@@ -19,11 +19,11 @@
 }
 
 .card p {
-  color: #ccc;
+  color: #000000;
 }
 
 .card a {
-  color: #9ec479;
+  color: #000000;
   text-decoration: none;
   font-weight: bold;
 }
