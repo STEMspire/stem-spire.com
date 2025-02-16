@@ -6,7 +6,7 @@
 
 body {
   /* background-color:#9dc378; */
-  background-image: url("../images/png/background.png");
+  background-image: url("../images/png/background-dark.png");
   background-size:40%;
   background-repeat:repeat;
   color: rgb(28, 21, 35);
@@ -22,12 +22,14 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: rgb(28, 21, 35);
-  color: rgb(28, 21, 35);
-  padding: 1rem 2rem;
+  background-color: #1d1d1d;
+  color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #333333;
 }
 
 .navbar .domain a {
@@ -44,10 +46,21 @@ body {
   color:#ffffff;
 }
 
+.navbar .domain {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
 .navbar .contributions-page a,
 .about-me-page a {
   font-size: 1rem;
-  color: rgb(28, 21, 35);
+  color: #ffffff;
   font-family: "Lexend";
   text-decoration: none;
   padding-left: 1rem;
@@ -60,6 +73,6 @@ body {
   border-top: 0px;
   border-bottom: 0px;
   border-style: dashed;
-  border-color: #333;
+  border-color: #333333;
   height: 2rem;
 }
