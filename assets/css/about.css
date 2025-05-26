@@ -46,3 +46,6 @@
 .team-card a:hover {
     text-decoration:underline;
 }
+.header-text {
+    color: #00ffff;
+}
