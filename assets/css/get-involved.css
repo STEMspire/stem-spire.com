@@ -1,7 +1,7 @@
 .container {
   width: 80%;
   max-width: 60%;
-  margin-top: 20rem;
+  margin-top: 5rem;
   color: #ffffff;
 }
 
@@ -50,6 +50,12 @@
   font-size: 1.2rem;
 }
 
+.cta {
+  display: flex;
+  justify-content: space-between; /* or 'space-around' / 'space-evenly' */
+  gap: 1rem; /* optional spacing between buttons */
+}
+
 .cta .btn {
   background-color: #9ec479;
   padding: 0.8rem 2rem;
@@ -59,7 +65,11 @@
   color: #111;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  overflow: auto;
+  flex: 1; /* ensures buttons grow equally */
+  text-align: center;
 }
+
 
 .cta .btn:hover {
   background-color: #7ea351;

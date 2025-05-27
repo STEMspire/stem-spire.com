@@ -48,18 +48,24 @@
 .hero p {
   font-size: 1.2rem;
 }
-
+.calendar {
+  border: solid 1px #777;
+  width: 90%;
+  max-width: 60%;
+  height: 300px;
+  align-self: auto;
+}
 .cta .btn {
-  background-color: #222;
+  background-color: #2e8a72;
   padding: 0.8rem 2rem;
   text-align: center;
   border-radius: 5px;
   text-decoration: none;
-  color: #9ec479;
+  color: #000000;
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
 
 .cta .btn:hover {
-  background-color: rgb(63, 160, 129);
+  background-color: #816ff7;
 }
